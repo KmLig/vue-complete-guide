@@ -13,9 +13,9 @@
         <input type="text" id="goal" v-model="enteredValue" />
         <button v-on:click="addGoal">Add Goal</button>
       </div>
-      <ul>        
+      <ul>
         <!-- List of goals will appear here -->
-         <li v-for="goal in goals" v-bind:key="goal">{{ goal }}</li>
+        <li v-for="goal in goals" v-bind:key="goal">{{ goal }}</li>
       </ul>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
