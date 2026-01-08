@@ -11,7 +11,7 @@ Vue.createApp({
             this.enteredValue = '';
         }
     }
-});
+}).mount('#app');
 
 
 // const buttonEl = document.querySelector('button');
