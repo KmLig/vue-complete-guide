@@ -1,5 +1,5 @@
 const app = Vue.createApp({
-  data: function () {
+  data() {
     return {
       goal: "Learn Vue.js!",
     };
