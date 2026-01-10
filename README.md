@@ -4,6 +4,9 @@ This repository is for learning and practicing **Vue.js from basic to advanced c
 
 ## Branches
 
+starting-project-01
+basics-01
+
 ## Tech Stack
 
 - Vue 3
