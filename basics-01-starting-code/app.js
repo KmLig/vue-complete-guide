@@ -4,6 +4,7 @@ const app = Vue.createApp({
       courseGoal: "Finish the course and learn Vue!",
       vueLink: "https://vuejs.org",
       isFirstButtonDisabled: true,
+      isSecondButtonDisabled: false,
     };
   },
   methods: {
