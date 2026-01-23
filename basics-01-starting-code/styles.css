@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 body {
@@ -68,6 +68,8 @@ header {
   color: white;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+  margin: 5px;
+  border-radius: 4px;
 }
 
 #user-goal button:hover,
@@ -75,4 +77,14 @@ header {
   background-color: #ec3169;
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+#user-goal button:disabled,
+#user-goal button:disabled:hover,
+#user-goal button:disabled:active {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
 }

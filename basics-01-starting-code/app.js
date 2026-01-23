@@ -3,6 +3,7 @@ const app = Vue.createApp({
     return {
       courseGoal: "Finish the course and learn Vue!",
       vueLink: "https://vuejs.org",
+      isFirstButtonDisabled: true,
     };
   },
   methods: {

@@ -21,6 +21,7 @@
       <p>{{ outputGoal() }}</p>
       <p>{{ 10 > 5 ? "true" : "false" }}</p>
       <p>{{ Math.random() }}</p>
+      <button v-bind:disabled="isFirstButtonDisabled">Click me</button>
       <p>Learn more <a :href="vueLink" target="_blank"> about Vue</a></p>
     </section>
   </body>
