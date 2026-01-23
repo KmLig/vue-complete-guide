@@ -5,6 +5,16 @@ const app = Vue.createApp({
       vueLink: "https://vuejs.org",
     };
   },
+  methods: {
+    outputGoal: function () {
+      const randomNumber = Math.random();
+      if (randomNumber < 0.5) {
+        return "Master Vue and build amazing apps!";
+      } else {
+        return "Complete the course and get started with Vue!";
+      }
+    },
+  },
 });
 
 app.mount("#user-goal");
