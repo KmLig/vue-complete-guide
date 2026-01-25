@@ -1,3 +1,4 @@
 1.  Text interpolation: The most basic form of data binding is text interpolation using the "Mustache" syntax (double curly braces)
 2.  Attribute Bindings: Using a v-bind directive
 2.1 Shorthand: Attributes that start with :
+3.  Raw HTML: The double mustaches interpret the data as plain text, not HTML. In order to output real HTML, use the v-html directive
