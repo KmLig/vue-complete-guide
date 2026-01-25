@@ -1,0 +1,1 @@
+1.  Text interpolation: The most basic form of data binding is text interpolation using the "Mustache" syntax (double curly braces)
