@@ -18,7 +18,8 @@
     </header>
     <section id="user-goal">
       <h2>My Course Goal</h2>
-      <p v-html="outputGoal()"></p>
+      <!-- <p v-html="outputGoal()"></p> -->
+      <p>{{ outputGoal() }}</p>
       <p>{{ 10 > 5 ? "true" : "false" }}</p>
       <p>{{ Math.random() }}</p>
       <button v-bind:disabled="isFirstButtonDisabled">Click me</button>
