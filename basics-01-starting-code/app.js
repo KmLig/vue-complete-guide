@@ -6,6 +6,11 @@ const app = Vue.createApp({
       vueLink: "https://vuejs.org",
       isFirstButtonDisabled: true,
       isSecondButtonDisabled: false,
+      objectOfAttributes: {
+        id: "user-goal-details",
+        class: "wrapper",
+        style: "border: 2px solid blue; padding: 10px;",
+      },
     };
   },
   methods: {
