@@ -18,8 +18,8 @@
     </header>
     <section id="events">
       <h2>Events in Action</h2>
-      <button v-on:click="add(5, $event)">Add 5</button>
-      <button v-on:click="remove(5, $event)">Remove 5</button>
+      <button v-on:click="add($event, 5)">Add 5</button>
+      <button v-on:click="remove($event, 5)">Remove 5</button>
       <p>Result: {{ counter }}</p>
      
       <input type="text" v-on:input="setName($event, 'Pham')" v-on:keyup.enter="confirmInput">
